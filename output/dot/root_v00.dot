@@ -1,0 +1,45 @@
+digraph root {
+	node [
+		fontname  = "Arial bold" 
+		fontsize  = "14"
+		fontcolor = "red"
+		style     = "rounded, filled"
+		shape     = "record"
+		fillcolor = "grey90"
+		color     = "blue"
+		width     = "2"
+	]
+
+	edge [
+		color     = "blue"
+	]
+
+	7 [label = "{{<g> 7 | <d> 0 } | { <g> | <d>}}"];
+	7:g -> 5;
+	5 [label = "{{<g> 5 | <d> 1 } | { <g> | <d>}}"];
+	5:g -> 1;
+	1 [label = "{{<g> 1 | <d> -1 } | { <g> | <d>}}"];
+	1 [label = "{{<g> 1 | <d> -1 }| { <g> NULL | <d> }}"];
+	1:d -> 3;
+	3 [label = "{{<g> 3 | <d> 0 } | { <g> | <d>}}"];
+	3 [label = "{{<g> 3 | <d> 0 }| { <g> NULL | <d> NULL}}"];
+	5:d -> 6;
+	6 [label = "{{<g> 6 | <d> 0 } | { <g> | <d>}}"];
+	6 [label = "{{<g> 6 | <d> 0 }| { <g> NULL | <d> NULL}}"];
+	7:d -> 11;
+	11 [label = "{{<g> 11 | <d> 0 } | { <g> | <d>}}"];
+	11:g -> 8;
+	8 [label = "{{<g> 8 | <d> -1 } | { <g> | <d>}}"];
+	8 [label = "{{<g> 8 | <d> -1 }| { <g> NULL | <d> }}"];
+	8:d -> 10;
+	10 [label = "{{<g> 10 | <d> 0 } | { <g> | <d>}}"];
+	10 [label = "{{<g> 10 | <d> 0 }| { <g> NULL | <d> NULL}}"];
+	11:d -> 14;
+	14 [label = "{{<g> 14 | <d> 0 } | { <g> | <d>}}"];
+	14:g -> 12;
+	12 [label = "{{<g> 12 | <d> 0 } | { <g> | <d>}}"];
+	12 [label = "{{<g> 12 | <d> 0 }| { <g> NULL | <d> NULL}}"];
+	14:d -> 16;
+	16 [label = "{{<g> 16 | <d> 0 } | { <g> | <d>}}"];
+	16 [label = "{{<g> 16 | <d> 0 }| { <g> NULL | <d> NULL}}"];
+}

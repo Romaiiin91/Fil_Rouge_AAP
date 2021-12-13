@@ -1,0 +1,32 @@
+digraph displayAVL {
+	node [
+		fontname  = "Arial bold" 
+		fontsize  = "14"
+		fontcolor = "red"
+		style     = "rounded, filled"
+		shape     = "record"
+		fillcolor = "grey90"
+		color     = "blue"
+		width     = "2"
+	]
+
+	edge [
+		color     = "blue"
+	]
+
+	HABACUC [label = "{{<g> HABACUC | <d> 0 } | { <g> | <d>}}"];
+	HABACUC:g -> AXEL;
+	AXEL [label = "{{<g> AXEL | <d> -1 } | { <g> | <d>}}"];
+	AXEL [label = "{{<g> AXEL | <d> -1 }| { <g> NULL | <d> }}"];
+	AXEL:d -> CARINE;
+	CARINE [label = "{{<g> CARINE | <d> 0 } | { <g> | <d>}}"];
+	CARINE [label = "{{<g> CARINE | <d> 0 }| { <g> NULL | <d> NULL}}"];
+	HABACUC:d -> MARISE;
+	MARISE [label = "{{<g> MARISE | <d> 0 } | { <g> | <d>}}"];
+	MARISE:g -> JEANNINE;
+	JEANNINE [label = "{{<g> JEANNINE | <d> 0 } | { <g> | <d>}}"];
+	JEANNINE [label = "{{<g> JEANNINE | <d> 0 }| { <g> NULL | <d> NULL}}"];
+	MARISE:d -> TOUSSAINT;
+	TOUSSAINT [label = "{{<g> TOUSSAINT | <d> 0 } | { <g> | <d>}}"];
+	TOUSSAINT [label = "{{<g> TOUSSAINT | <d> 0 }| { <g> NULL | <d> NULL}}"];
+}

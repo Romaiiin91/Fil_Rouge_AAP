@@ -1,0 +1,3 @@
+Pour compiler :
+    - main.c : Changer dans makefile CIBLE = main.exe et dans makefile_sources mettre main.c
+    - displayAVL.c : Changer dans makefile CIBLE = displayAVL.exe et dans makefile_sources mettre displayAVL.c

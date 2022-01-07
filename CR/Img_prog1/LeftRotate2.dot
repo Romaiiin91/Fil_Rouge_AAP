@@ -1,0 +1,29 @@
+digraph displayAVL {
+	node [
+		fontname  = "Times-Roman" 
+		fontsize  = "14"
+		fontcolor = "red"
+		style     = "rounded, filled"
+		shape     = "record"
+		fillcolor = "grey90"
+		color     = "blue"
+		width     = "2"
+	]
+
+	edge [
+		color     = "blue"
+	]
+
+	"A" [label = "{{<g> A | <d> a' }| { <g> | <d> }}"];
+	"B" [label = "{{<g> B | <d> b' } | { <g> | <d> }}"];
+	"A":g -> "B";
+	
+	
+	"Bg" [label = "{{<g> Bg | <d>  h(Bg) } | { <g>  | <d>  }}"];
+	"B":g -> "Bg";
+	
+	"Ad" [label = "{{<g> Ad | <d>  h(Ad) } | { <g>  | <d>  }}"];
+	"A":d -> "Ad";
+	"Ag" [label = "{{<g> Ag | <d>  h(Ag) }| { <g> NULL | <d> NULL }}"];
+	"B":d -> "Ag";
+}

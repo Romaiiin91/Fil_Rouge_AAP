@@ -1,0 +1,23 @@
+\babel@toc {french}{}
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Programme 1: displayAVL.exe}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Développement}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Fonction de base pour créer l'arbre}{2}{subsubsection.2.1.1}%
+\contentsline {paragraph}{Rotations simples}{2}{paragraph*.1}%
+\contentsline {paragraph}{BalanceAVL}{2}{paragraph*.3}%
+\contentsline {paragraph}{InsertAVL}{2}{paragraph*.4}%
+\contentsline {subsubsection}{\numberline {2.1.2}Lecture du fichier}{2}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Affichage avec graphviz}{2}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Jeux de test, exemples d'exécution}{3}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Programme 2: indexation.exe}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Développement}{3}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Fonction de base pour créer l'arbre}{3}{subsubsection.3.1.1}%
+\contentsline {paragraph}{Restructuration des mailles}{3}{paragraph*.7}%
+\contentsline {subsubsection}{\numberline {3.1.2}Calcul des paramètres de l'arbre}{3}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Recherche de mots}{3}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}Jeux de test, exemples d'exécution}{3}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Programme 3: anagrammes.exe}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Développement}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Jeux de test, exemples d'exécution}{3}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Gestion de projet}{3}{section.5}%
+\contentsline {section}{\numberline {6}Conclusion}{3}{section.6}%

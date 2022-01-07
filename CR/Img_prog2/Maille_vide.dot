@@ -1,0 +1,19 @@
+digraph displayAVL {
+	node [
+		fontname  = "Times-Roman" 
+		fontsize  = "14"
+		fontcolor = "red"
+		style     = "rounded, filled"
+		shape     = "record"
+		fillcolor = "grey90"
+		color     = "blue"
+		width     = "2"
+	]
+
+	edge [
+		color     = "blue"
+	]
+
+	"Maille" [label = "{{<g> val : signature | <d> bal : facteur désiquilibre }| { list_mots : Liste des mots} | { <g> Pointeur gauche | <d> Pointeur droit }}"];
+	
+}

@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+
+\bibitem{lect_lines}
+Delftstack.
+\newblock Lire le fichier ligne par ligne en utilisant fscanf en c.
+\newblock
+  \url{https://www.delftstack.com/fr/howto/c/fscanf-line-by-line-in-c/}, Mars
+  2021.
+
+\bibitem{koor.fr}
+SARL~Infini Software.
+\newblock Koor.fr.
+\newblock \url{https://koor.fr/C/Index.wp}, 2022.
+
+\end{thebibliography}

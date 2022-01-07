@@ -1,0 +1,68 @@
+digraph displayAVL {
+	node [
+		fontname  = "Arial bold" 
+		fontsize  = "14"
+		fontcolor = "red"
+		style     = "rounded, filled"
+		shape     = "record"
+		fillcolor = "grey90"
+		color     = "blue"
+		width     = "2"
+	]
+
+	edge [
+		color     = "blue"
+	]
+
+	"HABACUC" [label = "{{<g> HABACUC | <d> 0 } | { <g> | <d>}}"];
+	"HABACUC":g -> "CARINE";
+	"CARINE" [label = "{{<g> CARINE | <d> -1 } | { <g> | <d>}}"];
+	"CARINE":g -> "ANDRE";
+	"ANDRE" [label = "{{<g> ANDRE | <d> 0 } | { <g> | <d>}}"];
+	"ANDRE":g -> "ALBINE";
+	"ALBINE" [label = "{{<g> ALBINE | <d> 0 } | { <g> | <d>}}"];
+	"ALBINE" [label = "{{<g> ALBINE | <d> 0 }| { <g> NULL | <d> NULL}}"];
+	"ANDRE":d -> "AXEL";
+	"AXEL" [label = "{{<g> AXEL | <d> 0 } | { <g> | <d>}}"];
+	"AXEL" [label = "{{<g> AXEL | <d> 0 }| { <g> NULL | <d> NULL}}"];
+	"CARINE":d -> "DANIELE";
+	"DANIELE" [label = "{{<g> DANIELE | <d> -1 } | { <g> | <d>}}"];
+	"DANIELE":g -> "CELESTE";
+	"CELESTE" [label = "{{<g> CELESTE | <d> 0 } | { <g> | <d>}}"];
+	"CELESTE" [label = "{{<g> CELESTE | <d> 0 }| { <g> NULL | <d> NULL}}"];
+	"DANIELE":d -> "FABRICE";
+	"FABRICE" [label = "{{<g> FABRICE | <d> 1 } | { <g> | <d>}}"];
+	"FABRICE" [label = "{{<g> FABRICE | <d> 1 }| { <g> | <d> NULL}}"];
+	"FABRICE":g -> "DARIUS";
+	"DARIUS" [label = "{{<g> DARIUS | <d> 0 } | { <g> | <d>}}"];
+	"DARIUS" [label = "{{<g> DARIUS | <d> 0 }| { <g> NULL | <d> NULL}}"];
+	"HABACUC":d -> "NAHOUM";
+	"NAHOUM" [label = "{{<g> NAHOUM | <d> 0 } | { <g> | <d>}}"];
+	"NAHOUM":g -> "MARISE";
+	"MARISE" [label = "{{<g> MARISE | <d> 0 } | { <g> | <d>}}"];
+	"MARISE":g -> "LOUP";
+	"LOUP" [label = "{{<g> LOUP | <d> 0 } | { <g> | <d>}}"];
+	"LOUP":g -> "JEANNINE";
+	"JEANNINE" [label = "{{<g> JEANNINE | <d> 0 } | { <g> | <d>}}"];
+	"JEANNINE" [label = "{{<g> JEANNINE | <d> 0 }| { <g> NULL | <d> NULL}}"];
+	"LOUP":d -> "MARIN";
+	"MARIN" [label = "{{<g> MARIN | <d> 0 } | { <g> | <d>}}"];
+	"MARIN" [label = "{{<g> MARIN | <d> 0 }| { <g> NULL | <d> NULL}}"];
+	"MARISE":d -> "MOISE";
+	"MOISE" [label = "{{<g> MOISE | <d> -1 } | { <g> | <d>}}"];
+	"MOISE" [label = "{{<g> MOISE | <d> -1 }| { <g> NULL | <d> }}"];
+	"MOISE":d -> "MYRIAM";
+	"MYRIAM" [label = "{{<g> MYRIAM | <d> 0 } | { <g> | <d>}}"];
+	"MYRIAM" [label = "{{<g> MYRIAM | <d> 0 }| { <g> NULL | <d> NULL}}"];
+	"NAHOUM":d -> "ROSINE";
+	"ROSINE" [label = "{{<g> ROSINE | <d> 1 } | { <g> | <d>}}"];
+	"ROSINE":g -> "NICOLETTE";
+	"NICOLETTE" [label = "{{<g> NICOLETTE | <d> -1 } | { <g> | <d>}}"];
+	"NICOLETTE" [label = "{{<g> NICOLETTE | <d> -1 }| { <g> NULL | <d> }}"];
+	"NICOLETTE":d -> "REINE";
+	"REINE" [label = "{{<g> REINE | <d> 0 } | { <g> | <d>}}"];
+	"REINE" [label = "{{<g> REINE | <d> 0 }| { <g> NULL | <d> NULL}}"];
+	"ROSINE":d -> "TOUSSAINT";
+	"TOUSSAINT" [label = "{{<g> TOUSSAINT | <d> 0 } | { <g> | <d>}}"];
+	"TOUSSAINT" [label = "{{<g> TOUSSAINT | <d> 0 }| { <g> NULL | <d> NULL}}"];
+}

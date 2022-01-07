@@ -1,0 +1,19 @@
+digraph displayAVL {
+	node [
+		fontname  = "Times-Roman" 
+		fontsize  = "14"
+		fontcolor = "red"
+		style     = "rounded, filled"
+		shape     = "record"
+		fillcolor = "grey90"
+		color     = "blue"
+		width     = "2"
+	]
+
+	edge [
+		color     = "blue"
+	]
+
+	"Maille" [label = "{{<g> EEIIMORST | <d> 0 }| { ISOMETRIE, MIROITEES, MIROITEES, TROISIEME} | { <g> NULL | <d> NULL }}"];
+	
+}
